@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+{% include "blood/navbar.html" %}
+  <style type="text/css">
+   .hello {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+          }
+
+  </style>
+<head>
+  <title>About Us</title>
+</head>
+<body>
+  <header>
+    <h1>About Us</h1>
+  </header>
+
+  <nav>
+    <!-- Add navigation links here if needed -->
+  </nav>
+
+  <main>
+<section style="text-align: center;">
+  <div class="logo">
+    <h2><img src="{% static "image/logo4.png" %}" alt="logo"></h2>
+  </div>
+
+<h2>Welcome to our blood donation website!</h2>
+<p>Our mission is simple: to connect people in need of blood with willing donors in their local community. With the tap of a button, you can easily search for nearby blood drives or find individuals who are currently seeking blood donations.</p>
+
+<p>Our website is designed to be user-friendly and intuitive, allowing you to quickly and easily find the information you need. Whether you're looking to donate blood yourself or searching for someone who needs a transfusion, our website has you covered.</p>
+
+<p>We also understand how important it is to keep your personal information secure. That's why we take data privacy very seriously and use the latest security protocols to keep your information safe.</p>
+
+<h4>Thank you for joining us in our mission to save lives through blood donation. Together, we can make a real difference in the world.</h4>
+</section>
+
+
+
+   
+  <div class="jumbotron" style="margin-top: 0px;margin-bottom: 0px;">
+
+    <p class="lead text-align: left">You can reach us at:</p>
+    <p>Facebook.com/blooddonation</p>
+    <p>Phone: +201014118947</p>
+
+
+
+  </div>
+    {% include "blood/footer.html" %}
+</body>
+</html>
